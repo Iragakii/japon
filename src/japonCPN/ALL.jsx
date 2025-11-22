@@ -3,21 +3,22 @@ import React from 'react'
 const ALL = () => {
   return (
     <div>
-        びょうが　: render <br></br>
-        さいびょが : re render <br></br>
-        きょどう　: xu ly hanh vi ui <br></br>
-        じょうたい　かんり　:　state mangement
+        びょうが　: render
+        際びょうが : re render
+        きょどう : hanh vi ui
+        じょうたい かんり : state mng
         ひどうき　しょり : xu ly async
-        いぞん　ライブラリ : dependencies library
+        いぞん　ライブラり : depencies lib
         ぶんかつ : split cpn
-        れっか : suy giam performance
-        さいてきか : render optimaztion
-        かそう　ドム : vitural doom
+        れっか : suy giam hieu suat
+        さいてきか : render opt
+        かそう　どむ : vt doom
         コンポーネント : cpn
-        おや　コンポーネント : parent cpn
+        おや　こんぽーねんと : pr cpnm
         こ　コンポーネント : child cpn
-        プロパ地 : props
+        プロパリ : props
         じょうたい : state
+        
 
     </div>
   )
