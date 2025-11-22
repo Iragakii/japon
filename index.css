@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background : black;
+ 
+  
+
+}
+body::-webkit-scrollbar {
+  width: 1px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(47, 98, 59, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(47, 98, 59, 0.3);
+  outline: 1px solid rgba(47, 98, 59, 0.3);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.hiahia{ 
+
+  word-spacing: 10px;
+    letter-spacing: 5px;
+   line-height: 40px;
+  color : green;
+  font-size:  16px;
+  margin: auto ;
+}
+.hiahia2 {
+  word-spacing: 10px;
+    letter-spacing: 5px;
+   line-height: 40px;
+  color : yellow;
+  font-size:  16px;
+  margin: auto ;
+}
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+.lyrics {
+  display: grid;
+}
+
+.lyrics span {
+  opacity: 0;
+  display: gird;
+  animation: wordFade 20s infinite;
+}
+.lyrics span:nth-child(1) { animation-delay: calc(2s * 0); }
+.lyrics span:nth-child(2) { animation-delay: calc(2s * 1); }
+.lyrics span:nth-child(3) { animation-delay: calc(2s * 2); }
+.lyrics span:nth-child(4) { animation-delay: calc(2s * 3); }
+.lyrics span:nth-child(5) { animation-delay: calc(2s * 4); }
+.lyrics span:nth-child(6) { animation-delay: calc(2s * 5); }
+.lyrics span:nth-child(7) { animation-delay: calc(2s * 6); }
+.lyrics span:nth-child(8) { animation-delay: calc(2s * 7); }
+.lyrics span:nth-child(9) { animation-delay: calc(2s * 8); }
+.lyrics span:nth-child(10){ animation-delay: calc(2s * 9); }
+/* Looping keyframes */
+@keyframes wordFade {
+  0% { opacity: 0; transform: translateY(6px); }
+  10% { opacity: 1; transform: translateY(0); }
+  20% { opacity: 1; }
+  30% { opacity: 0; } 
+  100% { opacity: 0; }
+}
