@@ -11,7 +11,7 @@ const Day5 = () => {
           じょうたい : state <br></br>
           レスポンしプ　たいおう　:　responsive handling <br></br>
           せつぞく　エラー : connection error<br></br>
-          つしん　ちえん :network  delay <br></br>
+          つしん　ちえん :network  delay 。。。<br></br>
           
 
 
@@ -24,18 +24,18 @@ const Day5 = () => {
 
 
         <p className="lyrics">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+           <span>コンポーネント :components</span>
+          <span>おや　コンポーネント： parent components</span>
+         
+          <span>こ　コンポーネント　:　child components</span>
+          <span>プロパリ　:　props</span>
+          <span> じょうたい: state</span>
+          <span>れすぽんしぷ　たいおう　:　responsive handling</span>
+          <span>せつぞく　エラー　:　network error</span>
+          <span>つしん　ちえん　:　network delay 。。。</span>
 
-          <span></span>
-          <span></span>
 
-          <span></span>
-          <span></span>
+
         </p>
       </div>
    

@@ -12,7 +12,7 @@ const Day4 = () => {
         いぞん　ライブラリ : dpc library <br></br>
         ぶんかつ : split cpn <br></br>
         れｃ　か : suy giam hieu nang <br></br>
-        さいてきか :render optimatioz <br></br>
+        さいてきか : optimatioz <br></br>
         かそうドム : vitual doom <br></br></div>
         <p className="lyrics">
           <span>びょが　： render </span>
@@ -26,7 +26,7 @@ const Day4 = () => {
           <span>れっか : giảm performance </span>
 
           <span>かそうドム : vitrual doom</span>
-          <span>さいてきか : render optimizatio　。。。</span>
+          <span>さいてきか :  optimizatio　。。。</span>
         </p>
       </div>
     

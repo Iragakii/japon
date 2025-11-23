@@ -4,20 +4,36 @@ const ALL = () => {
   return (
     <div>
         びょうが　: render
-        際びょうが : re render
+        さいびょうが  : re render
         きょどう : hanh vi ui
-        じょうたい かんり : state mng
-        ひどうき　しょり : xu ly async
-        いぞん　ライブラり : depencies lib
-        ぶんかつ : split cpn
+        じょうたい　かんり : state mng
+        うどうき　しょり : xu ly async
+        ぶんかつ :split cpn
         れっか : suy giam hieu suat
-        さいてきか : render opt
+        さいてきか : optimaize render
         かそう　どむ : vt doom
-        コンポーネント : cpn
-        おや　こんぽーねんと : pr cpnm
+
+        こんぽーねんと : cpn
+        おや　コンポーネント : parent cpn
         こ　コンポーネント : child cpn
-        プロパリ : props
-        じょうたい : state
+        ぷろぱり : props
+        じょうたい : state 
+        レスポンしプ　たいおう　： responsive handle
+        せつぞく　エラー　 : network error
+        つしん　ちえん : nw delay
+
+        API れんでい　: api connection
+        まうんど : Mount
+        あん　まうんど :  Unmount
+        いべんと　まんどら : Event Handler 
+        ぱふぉーまんす　さいてきか　: Performace optimization
+        さいてきか : Optimization
+        びょうが　しょり : Xu ly Render
+        データフロー図 : Dataflow
+
+
+
+
         
 
     </div>

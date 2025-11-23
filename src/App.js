@@ -4,9 +4,10 @@ import getCountForElement from './utils/countContent';
 import Day4 from './japonCPN/Day4';
 import Day5 from './japonCPN/Day5';
 import ButtonNextSlide from './japonCPN/btn/buttonNextSlide';
+import Day6 from './japonCPN/Day6';
 
 function App() {
-  const slides = useMemo(() => [<Day4 key="day4" />, <Day5 key="day5" />], []);
+  const slides = useMemo(() => [<Day4 key="day4" />, <Day5 key="day5" /> ,<Day6 key="day6" />], []);
   const [index, setIndex] = useState(0);
   const [wordCount, setWordCount] = useState(0);
   const trackRef = useRef(null);
